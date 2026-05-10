@@ -1,0 +1,48 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  background-color: #0B0F14;
+  background-image: 
+    radial-gradient(circle at 15% 50%, rgba(15, 23, 42, 0.6), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(30, 58, 138, 0.15), transparent 25%);
+  color: #F8FAFC;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
